@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: rgb(236, 236, 124);
+}
+.container {
+  width: 500px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 5px;
+}
+h1 {
+  border-bottom: 1px solid grey;
+  text-align: center;
+  color: black;
+}
+
+.form- {
+  display: flex;
+  flex-direction: column;
+}
+.form-control {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 12px;
+}
+.form .form-submit-btn {
+  padding: 10px;
+  margin-top: 10px;
+  background: orange;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+}
+
+.form-user-data .error {
+  color: rgb(231, 27, 27);
+  font-size: 13px;
+  margin: 10px;
+  height: 13px;
+}
+.form-user-data.success input {
+  border-color: green;
+}
+.form-user-data.error input {
+  border-color: red;
+}

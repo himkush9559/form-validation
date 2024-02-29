@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="get" id="form" class="form">
+        <h1>Registration Form</h1>
+
+        <div class="form-user-data">
+          <label for="username">Username :</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            class="form-control"
+          />
+          <span class="error"></span>
+        </div>
+        <div class="form-user-data">
+          <label for="usermail">Email</label>
+          <input
+            type="text"
+            name="usermail"
+            id="usermail"
+            class="form-control"
+          />
+          <span class="error"></span>
+        </div>
+        <div class="form-user-data">
+          <label for="Pass">Password :</label>
+          <input type="text" name="Password" id="Pass" class="form-control" />
+          <span class="error"></span>
+        </div>
+        <div class="form-user-data">
+          <label for="conf-pass">Confirm Password :</label>
+          <input type="text" name="" id="conf-pass" class="form-control" />
+          <span class="error"></span>
+        </div>
+        <input
+          style="font-size: 1.5rem; padding: 10 15px"
+          type="submit"
+          value="submit"
+          class="form-submit-btn"
+          id="form-submit-btn"
+        />
+      </form>
+    </div>
+
+    <!-- <div class="carousel" style="width: 800px" ; height="800px" ;>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video controls autoplay>
+            <source
+              src="Forgotten password _ Bizcardzone - Google Chrome 2023-08-23 15-57-54.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="Forgotten password _ Bizcardzone - Google Chrome 2023-08-23 15-57-54.ogg"
+              type="video/ogg"
+            />
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video controls autoplay>
+            <source
+              src="Forgotten password _ Bizcardzone - Google Chrome 2023-08-23 15-57-54.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="Forgotten password _ Bizcardzone - Google Chrome 2023-08-23 15-57-54.ogg"
+              type="video/ogg"
+            />
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video controls autoplay>
+            <source
+              src="Forgotten password _ Bizcardzone - Google Chrome 2023-08-23 15-57-54.mp4"
+              type="video/mp4"
+            />
+            <source
+              src="Forgotten password _ Bizcardzone - Google Chrome 2023-08-23 15-57-54.ogg"
+              type="video/ogg"
+            />
+          </video>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+        <span class="carousel-control-icon" aria-hidden="true">&lt;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#" role="button" data-slide="next">
+        <span class="carousel-control-icon" aria-hidden="true">&gt;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".carousel-control-prev").click(function () {
+          $(".carousel-item.active").prev().addClass("active");
+          $(".carousel-item.active:last").removeClass("active");
+        });
+        $(".carousel-control-next").click(function () {
+          $(".carousel-item.active").next().addClass("active");
+          $(".carousel-item.active:first").removeClass("active");
+        });
+      });
+    </script> -->
+  </body>
+</html>
